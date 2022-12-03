@@ -45,7 +45,7 @@ body {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
+  padding-right: 15px;
   padding-left: 15px;
 }
 
@@ -73,7 +73,7 @@ ul {
 
 /* Header */
 
-.header {
+.portfolio.header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -184,6 +184,7 @@ ul {
 
   padding: 10px 24px;
   border-radius: 4px;
+  border: none;
 }
 
 .button-hero {
@@ -213,7 +214,6 @@ ul {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* width: 270px; */
 }
 
 .sub-section {
@@ -257,7 +257,6 @@ ul {
   justify-content: space-between;
   align-items: center;
   gap: 30px;
-  /* background-color: #fff; */
 }
 
 .staff-cards {
@@ -413,7 +412,7 @@ ul {
 }
 
 .portfolio-card {
-  flex-basis: calc((100% - 3 * 30px) / 3);
+  flex-basis: calc((100% - 2 * 30px) / 3);
 }
 
 .portfolio-card img {
